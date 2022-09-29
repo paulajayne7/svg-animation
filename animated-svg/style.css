@@ -1,0 +1,87 @@
+.mug {
+  animation: mug 5s ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes mug {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(80deg);
+  }
+  75% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.drop {
+  animation: drop 5s ease-in 0.9s infinite;
+}
+.drop2 {
+  animation: drop 5s ease-in 1.1s infinite;
+}
+.drop3 {
+  animation: drop 5s ease-in 1.3s infinite;
+}
+.drop4 {
+  animation: drop 5s ease-in 1.5s infinite;
+}
+.drop5 {
+  animation: drop 5s ease-in 1.7s infinite;
+}
+.drop6 {
+  animation: drop 5s ease-in 1.9s infinite;
+}
+.drop7 {
+  animation: drop 5s ease-in 2.1s infinite;
+}
+.drop8 {
+  animation: drop 5s ease-in 2.3s infinite;
+}
+.drop9 {
+  animation: drop 5s ease-in 2.5s infinite;
+}
+.drop10 {
+  animation: drop 5s ease-in 2.7s infinite;
+}
+.drop11 {
+  animation: drop 5s ease-in 2.9s infinite;
+}
+.drop12 {
+  animation: drop 5s ease-in 3.1s infinite;
+}
+.drop13 {
+  animation: drop 5s ease-in 3.3s infinite;
+}
+
+@keyframes drop {
+  25% {
+    opacity: 1;
+  }
+  45% {
+    transform: translateY(47px);
+  }
+  100% {
+    transform: translateY(47px);
+  }
+}
+.water {
+  animation: water 5s ease infinite;
+  animation-delay: 3s;
+  transform: rotate(270deg);
+  transition: width 2s;
+}
+@keyframes water {
+  0% {
+    width: 5%;
+  }
+  45% {
+    width: 20%;
+  }
+  80% {
+    width: 5%;
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated-SVG</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="800" height="700" viewBox=" -20 -30 100 100">
+      <defs>
+        <image
+          id="drop"
+          class="drop1"
+          href="/drops.svg"
+          height="5%"
+          width="5%"
+          x="-1"
+          y="11"
+        ></image>
+      </defs>
+
+      <use class="drop" xlink:href="#drop" x="2" opacity="0"></use>
+      <use class="drop2" xlink:href="#drop" x="1" opacity="0"></use>
+      <use class="drop3" xlink:href="#drop" x="2" opacity="0"></use>
+      <use class="drop4" xlink:href="#drop" x="1" opacity="0"></use>
+      <use class="drop5" xlink:href="#drop" x="2" opacity="0"></use>
+      <use class="drop6" xlink:href="#drop" x="1" opacity="0"></use>
+      <use class="drop7" xlink:href="#drop" x="2" opacity="0"></use>
+      <use class="drop8" xlink:href="#drop" x="1" opacity="0"></use>
+      <use class="drop9" xlink:href="#drop" x="2" opacity="0"></use>
+      <use class="drop10" xlink:href="#drop" x="1" opacity="0"></use>
+      <use class="drop11" xlink:href="#drop" x="2" opacity="0"></use>
+      <use class="drop12" xlink:href="#drop" x="1" opacity="0"></use>
+      <use class="drop13" xlink:href="#drop" x="2" opacity="0"></use>
+
+      <circle
+        class="mug"
+        cx="0"
+        cy="10"
+        r="7%"
+        fill="white"
+        stroke="black"
+        stroke-width="3"
+      ></circle>
+      <rect
+        class="mug"
+        width="15%"
+        height="25%"
+        rx="3"
+        ry="3"
+        x="-2"
+        y="-1"
+        fill="black"
+      ></rect>
+      <image
+        class="mug cat"
+        href="/cat.svg"
+        x="-2"
+        y="7"
+        height="15%"
+        width="15%"
+      ></image>
+
+      <rect
+        class="water"
+        width="5%"
+        height="16%"
+        x="-63"
+        y="-4"
+        fill="hsl(206, 87%, 70%)"
+      ></rect>
+
+      <image href="/glass.svg" height="30%" width="30%" x="-10" y="35"></image>
+    </svg>
+  </body>
+</html>
